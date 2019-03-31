@@ -1,0 +1,106 @@
+body {
+  margin-top: 50px;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 100%;
+  background: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.login-head {
+  padding: 2em 0;
+  background: #6D4A70;
+  position: relative;
+}
+
+.login-head h1 {
+  color: #fff;
+  font-size: 1.5em;
+  text-align: left;
+  margin: 0 23px;
+}
+
+.input-sm{
+  height: 40px;
+}
+
+form {
+  padding: 3em 2em;
+  background: #F2F2F2;
+}
+
+input[type="text"]:hover, input[type="password"]:hover {
+  color: #9E61A3;
+}
+
+.form-control:focus{
+  border-color:  rgba(187, 185, 189, 0.11);
+  background: #F0EEF0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+input[type="text"], input[type="password"] {
+  font-family: 'Droid Sans', sans-serif;
+  /* width: 70%; */
+  padding: 0.5em 2em 0.5em 1em;
+  color: #B8B8B8;
+  font-size: 20px;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+input[type="submit"] {
+  float: left;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 900;
+  outline: none;
+  font-family: 'Raleway', sans-serif;
+  padding: 8px 0px;
+  width: 30%;
+  font-size: 15px;
+  background: #6C496F;
+  border: 2px solid #6C496F;
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+}
+
+.form-group{
+  border: 1px ridge rgba(187, 185, 189, 0.11);
+  border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  list-style: none;
+  margin-bottom: 12px;
+  background: #F0EEF0;
+}
+
+.form-submit {
+  padding-top: 1em;
+}
+
+.form-submit h4 a{
+  float: left;
+  font-size: 16px;
+  color: #999;
+  font-weight: 400;
+  font-family: 'Droid Sans', sans-serif;
+  margin-top: 15px;
+  margin-left: 21px;
+  text-decoration: none;
+}
+
+.form-submit h4 a:hover {
+  color: #8D4294;
+}
+
+.clear {
+  clear: both;
+}
