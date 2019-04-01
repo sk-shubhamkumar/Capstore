@@ -1,8 +1,9 @@
 body {
-  margin-top: 50px;
+  margin-top: 150px;
+  background-color: #4b294c;
   font-family: 'Droid Sans', sans-serif;
   font-size: 100%;
-  background: url(../images/bg.jpg);
+  background: url(../../bg.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -31,7 +32,7 @@ form {
   background: #F2F2F2;
 }
 
-input[type="text"]:hover, input[type="password"]:hover {
+input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover {
   color: #9E61A3;
 }
 
@@ -42,7 +43,7 @@ input[type="text"]:hover, input[type="password"]:hover {
   box-shadow: none;
 }
 
-input[type="text"], input[type="password"] {
+input[type="text"], input[type="password"], input[type="email"] {
   font-family: 'Droid Sans', sans-serif;
   /* width: 70%; */
   padding: 0.5em 2em 0.5em 1em;
@@ -103,4 +104,21 @@ input[type="submit"] {
 
 .clear {
   clear: both;
+}
+
+.foot-label{
+  margin-top: 5px;
+  text-align: center;
+  font-size: 15px;
+  color: #999;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+.foot-label a{
+  text-decoration: none;
+  color: #999;
+}
+
+.foot-label a:hover{
+  color: #8D4294;
 }
