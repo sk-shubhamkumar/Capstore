@@ -43,13 +43,30 @@ input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hove
   box-shadow: none;
 }
 
-input[type="text"], input[type="password"], input[type="email"] {
+input[type="text"], input[type="password"], input[type="email"]{
   font-family: 'Droid Sans', sans-serif;
   /* width: 70%; */
   padding: 0.5em 2em 0.5em 1em;
   color: #B8B8B8;
   font-size: 20px;
   outline: none;
+  background: none;
+  border: none;
+}
+
+.gender-label{
+  font-family: 'Droid Sans', sans-serif;
+  padding-left: 20px;
+  color: #495057cc;
+  font-size: 20px;
+  background: none;
+  border: none;
+}
+
+.gender-value{
+  font-family: 'Droid Sans', sans-serif;
+  color: #495057cc;
+  font-size: 20px;
   background: none;
   border: none;
 }
@@ -70,6 +87,16 @@ input[type="submit"] {
   -webkit-border-radius: 0.5em;
   -moz-border-radius: 0.5em;
   -o-border-radius: 0.5em;
+}
+
+select.form-control:not([size]):not([multiple]), select option{
+  font-family: 'Droid Sans', sans-serif;
+  padding: 0.2em 2em 0.2em 1em;
+  color: #9E61A3;
+  font-size: 20px;
+  outline: none;
+  background: none;
+  border: none;
 }
 
 .form-group{
